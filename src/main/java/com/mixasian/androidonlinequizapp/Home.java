@@ -8,7 +8,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-//helloworld
 
 public class Home extends AppCompatActivity {
 
@@ -49,4 +48,5 @@ public class Home extends AppCompatActivity {
         transaction.replace(R.id.frame_layout,CategoryFragment.newInstance());
         transaction.commit();
     }
+    System.out.println();
 }
