@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-haihai
+
 public class Home extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;
@@ -48,5 +48,4 @@ public class Home extends AppCompatActivity {
         transaction.replace(R.id.frame_layout,CategoryFragment.newInstance());
         transaction.commit();
     }
-    System.out.println();
 }
