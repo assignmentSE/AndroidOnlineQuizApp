@@ -106,7 +106,7 @@ public class Playing extends AppCompatActivity implements View.OnClickListener {
                         .load(Common.questionList.get(index).getQuestion())
                         .into(question_image);
                 question_image.setVisibility(View.VISIBLE);
-                question_text.setVisibility(View.INVISIBLE);
+               // question_text.setVisibility(View.INVISIBLE);
             }
 
             btnAnswerA.setText(Common.questionList.get(index).getAnswerA());
